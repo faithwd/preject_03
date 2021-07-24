@@ -1,0 +1,126 @@
+.wrap {
+    margin-left: 600px;
+}
+
+.header {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    background-color: pink;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+}
+
+.header img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    left: 260px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.header h3 {
+    position: absolute;
+    height: 20px;
+    color: aliceblue;
+    top: 13px;
+    left: 10px;
+}
+
+.main img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.main {
+    width: 300px;
+    height: 300px;
+    background-color: wheat;
+    overflow: auto;
+}
+
+.left_word {
+    position: relative;
+    width: 300px;
+    height: 30px;
+}
+
+.left_word span {
+    position: absolute;
+    left: 35px;
+    display: inline-block;
+    background-color: aqua;
+    color: antiquewhite;
+    border-radius: 3px;
+    line-height: 25px;
+    top: 10px;
+}
+
+.left_word img {
+    position: absolute;
+    left: 3px;
+    top: 5px;
+}
+
+.right_word {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.right_word span {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    background-color: plum;
+    color: antiquewhite;
+    border-radius: 3px;
+    right: 65px;
+    top: 25px;
+}
+
+.right_word img {
+    position: absolute;
+    right: 30px;
+}
+
+.footer {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}
+
+.footer img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    left: 10px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.footer .input_txt {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    width: 180px;
+    height: 25px;
+}
+
+.footer .input_sub {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    background-color: pink;
+    border-radius: 5px;
+}

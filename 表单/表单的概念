@@ -1,0 +1,22 @@
+表单在网页中主要负责数据采集。
+form标签
+<form>
+  <input typee="text" name="email_or_mobile"/>
+  <input type="password" name="password"/>
+  <input type="checkbox" name="remember_me" checked />
+  <button type="submit">提交</buttton>
+</form>
+表单的组成成分
+  表单标签
+  表单域：包含了文本框，密码框，隐藏域，多行文本框，复选框，单选框，下拉选择框和文件上传框
+  表单按钮
+form标签的属性：
+  action url地址 规定当提交表单时，向何处发送表单数据
+  method get/post 规定以何种方式把表单数据提交到action url
+  enctype application/x-www-form-urlencoded
+          multipart/form -data               规定在发送表单数据之前如何对其进行编码
+          text/plain
+  target  _blank
+          _self
+          _parent                            规定在何处打开action URL
+          _top

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-mousewheel.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 头部区域 -->
+        <div class="header">
+            <h3>小天同学</h3>
+            <img src="img/01.jpg" alt="icon">
+        </div>
+        <!-- 聊天区域内容 -->
+        <div class="main">
+            <ul class="talk_list" style="top:0px" id=talk_list>
+                <li class="left_word">
+                    <img src="img/01.jpg" alt=""><span>嗨，最近行我没有呀</span>
+                </li>
+
+            </ul>
+        </div>
+        <!-- 底部 消息区域 -->
+        <div class="footer">
+            <img src="img/02.jpeg" alt="icon">
+            <input type="text" placeholder="说点什么呗" class="input_txt" id="ipt" />
+            <input type="button" value="发送" class="input_sub" id="btnSend" />
+        </div>
+    </div>
+    <!-- 只要为audio制定了新的src 属性，而且制定了autoplay属性，那么语音就会自动播放 -->
+    <audio src="" id="voice" autoplay style="display:none"></audio>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/chat.js"></script>
+
+</body>
+
+</html>
